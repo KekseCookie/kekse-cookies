@@ -12,7 +12,7 @@ export default function About() {
           <h2 className="text-4xl md:text-5xl font-serif font-extrabold text-chocolate">A História por trás da Kekse</h2>
           <div className="w-16 h-0.5 bg-gold mx-auto"></div>
           <p className="text-base md:text-lg text-brown-light leading-relaxed font-serif italic pt-2">
-            "A Kekse nasceu com o propósito de criar cookies únicos, combinando técnicas artesanais, ingredientes selecionados e sabores marcantes."
+            "A Kekse nasceu em Santa Catarina, inspirada nas raízes alemãs de nossa família. O nome 'Kekse' significa 'cookie' em alemão — uma ideia especial da nossa mãe, que fala o idioma fluentemente. Combinamos carinho familiar, técnicas artesanais e ingredientes selecionados para criar cookies únicos."
           </p>
         </div>
 
@@ -48,7 +48,7 @@ export default function About() {
             </div>
             <h3 className="text-xl font-bold text-chocolate font-serif">Ingredientes Premium</h3>
             <p className="text-sm text-brown-light leading-relaxed">
-              Trabalhamos exclusivamente com ingredientes de altíssima qualidade: manteiga noisette, extrato natural de baunilha e chocolates finos.
+              Trabalhamos exclusivamente com ingredientes selecionados de marcas de referência no mercado, garantindo sabor autêntico e qualidade superior.
             </p>
           </div>
 

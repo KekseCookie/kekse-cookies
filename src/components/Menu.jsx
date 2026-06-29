@@ -15,7 +15,7 @@ export default function Menu({ cart, onAdd, onRemove, onCartClick }) {
           <h2 className="text-4xl md:text-5xl font-serif font-extrabold text-chocolate">Nossos Cookies Artesanais</h2>
           <div className="w-16 h-0.5 bg-gold mx-auto"></div>
           <p className="text-sm md:text-base text-brown-light leading-relaxed">
-            Feitos diariamente com manteiga noisette tostada e chocolates finos. Explore nossos sabores exclusivos e aproveite nossos descontos progressivos por quantidade!
+            Feitos diariamente com manteiga noisette tostada e ingredientes selecionados de marcas de referência. Explore nossos sabores exclusivos e aproveite nossos descontos progressivos por quantidade!
           </p>
         </div>
 

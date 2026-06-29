@@ -88,8 +88,8 @@ export default function Hero() {
             <div className="absolute -top-4 -right-4 bg-white px-4 py-3 rounded-lg shadow-xl flex items-center space-x-2 border border-beige animate-bounce">
               <span className="text-2xl">🍫</span>
               <div>
-                <p className="text-[10px] text-brown-light uppercase tracking-widest font-bold">Premium</p>
-                <p className="text-xs text-chocolate font-bold">Chocolate Belga</p>
+                <p className="text-[10px] text-brown-light uppercase tracking-widest font-bold">Qualidade</p>
+                <p className="text-xs text-chocolate font-bold">Marcas de Referência</p>
               </div>
             </div>
           </div>

@@ -10,8 +10,8 @@ export default function Features() {
     },
     {
       icon: <ChefHat className="w-5 h-5" />,
-      title: "Chocolates Nobres",
-      description: "Utilizamos apenas chocolates com alto teor de cacau de marcas de alta confeitaria, sem gorduras fracionadas ou substitutos."
+      title: "Marcas de Referência",
+      description: "Trabalhamos exclusivamente com insumos de marcas líderes do mercado confeiteiro, garantindo um produto final de alto padrão."
     },
     {
       icon: <Sparkles className="w-5 h-5" />,
@@ -35,7 +35,7 @@ export default function Features() {
             <p className="text-xs font-bold text-gold uppercase tracking-widest">Diferenciais</p>
             <h2 className="text-4xl font-serif font-black text-chocolate leading-tight">Por que escolher a Kekse?</h2>
             <p className="text-brown-light leading-relaxed text-sm md:text-base">
-              Desenvolvemos nossos cookies com a mesma precisão de grandes ateliês de confeitaria franceses. Cada etapa, desde a escolha do cacau até o tempo de repouso da massa, é executada meticulosamente para entregar a você o melhor cookie da sua vida.
+              Nossos cookies unem as tradições de nossa família com técnicas de alta confeitaria. Cada etapa, desde a pesagem dos ingredientes selecionados até o tempo de repouso da massa, é executada com carinho e precisão.
             </p>
             <div className="pt-2">
               <div className="w-1/3 h-0.5 bg-gold"></div>

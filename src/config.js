@@ -75,21 +75,21 @@ export const REVIEWS = [
   {
     id: 1,
     name: "Mariana Souza",
-    role: "Cliente desde 2024",
+    role: "Cliente",
     text: "O Cookie Tradicional é inexplicável! A textura é exatamente como dizem: crocante por fora e macia por dentro. A manteiga noisette faz toda a diferença.",
     rating: 5
   },
   {
     id: 2,
     name: "Guilherme Santos",
-    role: "Entusiasta de Confeitaria",
+    role: "Cliente",
     text: "O Red Velvet com chocolate branco caramelizado é de outro mundo. Dá para sentir a qualidade dos ingredientes em cada mordida. Experiência de altíssimo nível.",
     rating: 5
   },
   {
     id: 3,
     name: "Renata Oliveira",
-    role: "Amante de Doces",
+    role: "Cliente",
     text: "Nutella é meu sabor favorito da vida, e o cookie da Kekse superou todas as expectativas. Vem super recheado e o sabor é muito equilibrado. Vale cada centavo!",
     rating: 5
   }
