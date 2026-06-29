@@ -1,0 +1,106 @@
+@import "tailwindcss";
+
+@theme {
+  --color-cream: #FAF7F2;
+  --color-beige: #F3EDE2;
+  --color-chocolate: #3D251E;
+  --color-brown-light: #5A3B32;
+  --color-gold: #D4AF37;
+  --color-gold-light: #F0E6D2;
+  --color-gold-dark: #B89020;
+  
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Montserrat", "Inter", system-ui, sans-serif;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF7F2;
+}
+::-webkit-scrollbar-thumb {
+  background: #C5A880;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3D251E;
+}
+
+/* Premium Styles */
+.gold-text-gradient {
+  background: linear-gradient(135deg, #B89020 0%, #D4AF37 50%, #F0E6D2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-border-gradient {
+  border-image: linear-gradient(135deg, #B89020, #D4AF37, #F0E6D2) 1;
+}
+
+/* Custom Glassmorphism Header */
+.glass-nav {
+  background: rgba(250, 247, 242, 0.8);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(61, 37, 30, 0.05);
+}
+
+/* Custom animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.8s ease forwards;
+}
+
+/* Delay helpers for scroll animations */
+.animation-delay-200 {
+  animation-delay: 200ms;
+}
+.animation-delay-400 {
+  animation-delay: 400ms;
+}
+.animation-delay-600 {
+  animation-delay: 600ms;
+}
+
+/* Custom scale utilities */
+.hover-gold-shadow {
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.hover-gold-shadow:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px -10px rgba(212, 175, 55, 0.25);
+}
+
+/* Active buttons and interaction scaling */
+.btn-premium {
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+.btn-premium::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 300px;
+  height: 300px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: transform 0.5s ease;
+}
+.btn-premium:hover::after {
+  transform: translate(-50%, -50%) scale(1);
+}
