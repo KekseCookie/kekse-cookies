@@ -1,7 +1,6 @@
-// Configuration file for Kekse digital menu
-import traditionalImg from './assets/cookie_traditional.jpg';
-import redVelvetImg from './assets/cookie_red_velvet.jpg';
-import nutellaImg from './assets/cookie_nutella.jpg';
+import traditionalImg from './assets/cookie_traditional.png';
+import redVelvetImg from './assets/cookie_red_velvet.png';
+import nutellaImg from './assets/cookie_nutella.png';
 
 export const WHATSAPP_NUMBER = "555121604346";
 
