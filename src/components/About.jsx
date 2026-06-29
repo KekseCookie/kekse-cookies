@@ -12,7 +12,7 @@ export default function About() {
           <h2 className="text-4xl md:text-5xl font-serif font-extrabold text-chocolate">A História por trás da Kekse</h2>
           <div className="w-16 h-0.5 bg-gold mx-auto"></div>
           <p className="text-base md:text-lg text-brown-light leading-relaxed font-serif italic pt-2">
-            "A Kekse nasceu em Santa Catarina, inspirada nas raízes alemãs de nossa família. O nome 'Kekse' significa 'cookie' em alemão — uma ideia especial da nossa mãe, que fala o idioma fluentemente. Combinamos carinho familiar, técnicas artesanais e ingredientes selecionados para criar cookies únicos."
+            "A Kekse nasceu em Santa Catarina, inspirada nas tradições e na forte herança cultural alemã do estado. O nome 'Kekse' significa 'biscoito' em alemão — uma homenagem a essa influência. Combinamos processos puramente artesanais e ingredientes selecionados para criar cookies únicos."
           </p>
         </div>
 

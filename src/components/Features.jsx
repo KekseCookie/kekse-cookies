@@ -35,7 +35,7 @@ export default function Features() {
             <p className="text-xs font-bold text-gold uppercase tracking-widest">Diferenciais</p>
             <h2 className="text-4xl font-serif font-black text-chocolate leading-tight">Por que escolher a Kekse?</h2>
             <p className="text-brown-light leading-relaxed text-sm md:text-base">
-              Nossos cookies unem as tradições de nossa família com técnicas de alta confeitaria. Cada etapa, desde a pesagem dos ingredientes selecionados até o tempo de repouso da massa, é executada com carinho e precisão.
+              Nossos cookies unem receitas tradicionais com técnicas de alta confeitaria. Cada etapa, desde a pesagem dos ingredientes selecionados até o tempo de repouso da massa, é executada com absoluto cuidado e precisão.
             </p>
             <div className="pt-2">
               <div className="w-1/3 h-0.5 bg-gold"></div>
